@@ -1,35 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div className="App">
+      <h1>React</h1>
+      <p>A biblioteca para interfaces de usuário web e nativas.</p>
+      <button>Aprenda React</button>
+      <button>Referencia de API</button>
+
+      <h2>Crie interfaces de usuário de componentes</h2>
+      <p>React permite que voce construa interfaces de usuário a partir de pedaços individuais chamados componentes.</p>
+
+       <h2>Escreva componente com código e marcação</h2>
+
+      <p>Próximos passos:</p>
+      <ul>
+        <li>Uso de dados dinâmicos no JSX</li>
+        <li>Criação de novos componentes</li>
+        <li>Estilização de componentes</li>
+        <li>Uso de props e children</li>
+        <li>Uso de eventos do JavaScript</li>
+      </ul>
+    </div>
   )
 }
-
-export default App
