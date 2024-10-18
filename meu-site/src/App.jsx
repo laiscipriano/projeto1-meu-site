@@ -1,15 +1,16 @@
 export default function App() {
   return (
     <div className="App">
+      <img sr="./public/react.png" alt=""/>
       <h1>React</h1>
       <p>A biblioteca para interfaces de usuário web e nativas.</p>
       <button>Aprenda React</button>
       <button>Referencia de API</button>
-
-      <h2>Crie interfaces de usuário de componentes</h2>
+<hr/>
+      <h1>Crie interfaces de usuário de componentes</h1>
       <p>React permite que voce construa interfaces de usuário a partir de pedaços individuais chamados componentes.</p>
 
-       <h2>Escreva componente com código e marcação</h2>
+       <h1>Escreva componente com código e marcação</h1>
 
       <p>Próximos passos:</p>
       <ul>
