@@ -9,10 +9,11 @@ export default function App() {
       <hr/>
       <h1>Crie interfaces de usuário de componentes</h1>
       <p>React permite que voce construa interfaces de usuário a partir de pedaços individuais chamados componentes.</p>
-
-       <h1>Escreva componente com código e marcação</h1>
-
-      <p>Próximos passos:</p>
+      <hr/>
+      <h1>Escreva componente com código e marcação</h1>
+      <p></p>
+      <hr/>
+      <h2>Próximos passos:</h2>
       <ul>
         <li>Uso de dados dinâmicos no JSX</li>
         <li>Criação de novos componentes</li>
