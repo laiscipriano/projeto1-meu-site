@@ -6,7 +6,7 @@ export default function App() {
       <p>A biblioteca para interfaces de usuário web e nativas.</p>
       <button>Aprenda React</button>
       <button>Referencia de API</button>
-<hr/>
+      <hr/>
       <h1>Crie interfaces de usuário de componentes</h1>
       <p>React permite que voce construa interfaces de usuário a partir de pedaços individuais chamados componentes.</p>
 
